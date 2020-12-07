@@ -1,0 +1,6 @@
+name,type,url,dicname
+E-OBS_v21e_0.10regular,observation,shared/data/observations/eobs/v21e/grid010reg/e-obs_v21e_0.10regular.ncml,E-OBS_v21e.dic
+E-OBS_v21e_0.25regular,observation,shared/data/observations/eobs/v21e/grid025reg/e-obs_v21e_0.25regular.ncml,E-OBS_v21e.dic
+Daymet_v3_0.25regular,observation,shared/data/observations/daymet/v3/grid025reg/daymet_0.25_v3.ncml,Daymet_v3.dic
+
+

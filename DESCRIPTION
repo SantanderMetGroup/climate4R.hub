@@ -31,4 +31,4 @@ URL: https://github.com/SantanderMetGroup/climate4R.hub/wiki
 Encoding: UTF-8
 Description: Enables harmonized access to either remote climate databases stored in the IPCC hub.
 License: file LICENSE
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1

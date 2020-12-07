@@ -9,16 +9,16 @@
 #' @importFrom utils read.csv
 #' @examples
 #' # Default built-in datasets
-#' str(HUB.datasets())
-#' (sets <- HUB.datasets())
-#' names(sets)
-#' sets$OBSERVATIONS
-#' # Using argument pattern
-#' HUB.datasets(pattern = "E-OBS.*v21")
-#' # Showing the full Url of the datasets
-#' HUB.datasets(pattern = "E-OBS", full.info = TRUE)
+#' # str(HUB.datasets())
+#' # (sets <- HUB.datasets())
+#' # names(sets)
+#' # sets$OBSERVATIONS
+#' # # Using argument pattern
+#' # HUB.datasets(pattern = "E-OBS.*v21")
+#' # # Showing the full url of the datasets
+#' # HUB.datasets(pattern = "E-OBS", full.info = TRUE)
 
-UDG.datasets <- function(pattern = "", full.info = FALSE) {
+HUB.datasets <- function(pattern = "", full.info = FALSE) {
   lf <- list.files(file.path(find.package("climate4R.hub")), pattern = "datasets.*.txt", full.names = TRUE)
   df <- lapply(lf, function(x) read.csv(x, stringsAsFactors = FALSE)[ ,1:3])
   names(df) <- gsub(lf, pattern = ".*/datasets_|.txt", replacement = "")
