@@ -1,7 +1,6 @@
 Package: climate4R.hub
 Depends:
     R(>= 3.5.0),
-    rJava
 Imports:
     utils,
     loadeR
