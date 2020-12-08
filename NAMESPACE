@@ -2,4 +2,7 @@
 
 export(HUB.datasets)
 export(loadHubData)
+importFrom(loadeR,loadGridData)
+importFrom(utils,globalVariables)
+importFrom(utils,packageDescription)
 importFrom(utils,read.csv)

@@ -1,4 +1,4 @@
-The dictionaries in this directory correspond to the remote datasets provided by the Santander Meteorology Group through the User Data Gateway.
+The dictionaries in this directory correspond to the datasets stored in the IPCC hub.
 
 For a detailed description of the datasets and available variables see:
 

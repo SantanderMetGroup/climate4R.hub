@@ -3,9 +3,9 @@ Depends:
     R(>= 3.5.0),
     rJava
 Imports:
-    utils
+    utils,
+    loadeR
 Suggests:
-    loadeR,
     loadeR.ECOMS,
     transformeR,
     visualizeR,

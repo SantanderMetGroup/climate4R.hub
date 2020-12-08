@@ -22,14 +22,14 @@ The function assumes that the user has read permission to the package installati
 }
 \examples{
 # Default built-in datasets
-# str(HUB.datasets())
-# (sets <- HUB.datasets())
-# names(sets)
-# sets$OBSERVATIONS
-# # Using argument pattern
-# HUB.datasets(pattern = "E-OBS.*v21")
-# # Showing the full url of the datasets
-# HUB.datasets(pattern = "E-OBS", full.info = TRUE)
+str(HUB.datasets())
+(sets <- HUB.datasets())
+names(sets)
+sets$OBSERVATIONS
+# Using argument pattern
+HUB.datasets(pattern = "E-OBS.*v21")
+# Showing the full url of the datasets
+HUB.datasets(pattern = "E-OBS", full.info = TRUE)
 }
 \author{
 J Baño-Medina

@@ -1,3 +1,21 @@
+#     HUB.datasets.R Show the datasets available on the IPCC hub
+#
+#     Copyright (C) 2018 Santander Meteorology Group (http://www.meteo.unican.es)
+#
+#     This program is free software: you can redistribute it and/or modify
+#     it under the terms of the GNU General Public License as published by
+#     the Free Software Foundation, either version 3 of the License, or
+#     (at your option) any later version.
+# 
+#     This program is distributed in the hope that it will be useful,
+#     but WITHOUT ANY WARRANTY; without even the implied warranty of
+#     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#     GNU General Public License for more details.
+# 
+#     You should have received a copy of the GNU General Public License
+#     along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+
 #' @title Show the datasets available on the IPCC hub
 #' @description Lists the harmonized datasets that are accessible from the IPCC hub. 
 #' @param pattern Optional. Pattern in the dataset name as passed to function \code{\link{grep}} (case-insensitive).
@@ -9,14 +27,14 @@
 #' @importFrom utils read.csv
 #' @examples
 #' # Default built-in datasets
-#' # str(HUB.datasets())
-#' # (sets <- HUB.datasets())
-#' # names(sets)
-#' # sets$OBSERVATIONS
-#' # # Using argument pattern
-#' # HUB.datasets(pattern = "E-OBS.*v21")
-#' # # Showing the full url of the datasets
-#' # HUB.datasets(pattern = "E-OBS", full.info = TRUE)
+#' str(HUB.datasets())
+#' (sets <- HUB.datasets())
+#' names(sets)
+#' sets$OBSERVATIONS
+#' # Using argument pattern
+#' HUB.datasets(pattern = "E-OBS.*v21")
+#' # Showing the full url of the datasets
+#' HUB.datasets(pattern = "E-OBS", full.info = TRUE)
 
 HUB.datasets <- function(pattern = "", full.info = FALSE) {
   lf <- list.files(file.path(find.package("climate4R.hub")), pattern = "datasets.*.txt", full.names = TRUE)
