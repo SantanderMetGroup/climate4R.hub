@@ -1,9 +1,9 @@
 Package: climate4R.hub
 Depends:
     R(>= 3.5.0),
-Imports:
-    utils,
     loadeR
+Imports:
+    utils
 Suggests:
     loadeR.ECOMS,
     transformeR,
