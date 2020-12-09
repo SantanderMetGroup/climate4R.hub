@@ -2,7 +2,7 @@
 % Please edit documentation in R/HUB.datasets.R
 \name{HUB.datasets}
 \alias{HUB.datasets}
-\title{Show the datasets available on the IPCC hub}
+\title{Show the datasets available on the Atlas hub}
 \usage{
 HUB.datasets(pattern = "", full.info = FALSE)
 }

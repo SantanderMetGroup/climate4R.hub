@@ -2,7 +2,7 @@
 % Please edit documentation in R/loadHubData.R
 \name{loadHubData}
 \alias{loadHubData}
-\title{Load a grid from a dataset stored in the IPCC hub}
+\title{Load a grid from a dataset stored in the Atlas hub}
 \usage{
 loadHubData(
   dataset,
@@ -102,11 +102,11 @@ provides geo-referencing information as stored in the original dataset.}
   interval \emph{[start, end)}, or if the loaded field is static, a character string indicating it.}
 }
 \description{
-Load a user-defined spatio-temporal slice from a dataset which is stored in the IPCC hub.
+Load a user-defined spatio-temporal slice from a dataset which is stored in the Atlas hub.
 }
 \note{
-The function assumes that you are working from the IPCC hub and the user has read permissions to the shared directory.
-To load data not stored in the IPCC hub, the user should rely on \code{\link[loadeR]{loadGridData}}
+The function assumes that you are working from the Atlas hub and the user has read permissions to the shared directory.
+To load data not stored in the Atlas hub, the user should rely on \code{\link[loadeR]{loadGridData}}
 }
 \section{Variable homogenization}{
  
@@ -170,7 +170,7 @@ library(loadeR)
 HUB.datasets()
 # Example with E-OBS v21
 HUB.datasets(pattern = "E-OBS.*v21")
-url <- loadHubData("E-OBS_v21e_0.10regular", years = 2000, var = "pr")
+# url <- loadHubData("E-OBS_v21e_0.10regular", years = 2000, var = "pr")
 }
 \author{
 J Baño-Medina

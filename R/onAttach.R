@@ -22,7 +22,7 @@
             }
       }
       packageStartupMessage("Please use 'citation(\"", pkgname, "\")' to cite this package.")
-      packageStartupMessage("Warning this package is only to work in the IPCC hub")
+      packageStartupMessage("Warning this package is only to work in the Atlas hub")
 }
 # End
 

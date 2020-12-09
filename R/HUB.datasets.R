@@ -16,7 +16,7 @@
 #     along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 
-#' @title Show the datasets available on the IPCC hub
+#' @title Show the datasets available on the Atlas hub
 #' @description Lists the harmonized datasets that are accessible from the IPCC hub. 
 #' @param pattern Optional. Pattern in the dataset name as passed to function \code{\link{grep}} (case-insensitive).
 #' @param full.info Default to FALSE. If TRUE, the complete URL is also displayed.

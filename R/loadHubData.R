@@ -16,8 +16,8 @@
 #     along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 
-#' @title Load a grid from a dataset stored in the IPCC hub
-#' @description Load a user-defined spatio-temporal slice from a dataset which is stored in the IPCC hub.
+#' @title Load a grid from a dataset stored in the Atlas hub
+#' @description Load a user-defined spatio-temporal slice from a dataset which is stored in the Atlas hub.
 #' @template templateParams
 #' @param members A vector of integers indicating the members to be loaded.
 #'  Default to \code{NULL}, which loads all available members if the dataset contains members (i.e. in case a Ensemble Axis is defined).
@@ -50,8 +50,8 @@
 #' @template templateDicDetails  
 #' @template templateTimeAggr
 #' @template templateGeolocation
-#' @note The function assumes that you are working from the IPCC hub and the user has read permissions to the shared directory.
-#' To load data not stored in the IPCC hub, the user should rely on \code{\link[loadeR]{loadGridData}} 
+#' @note The function assumes that you are working from the Atlas hub and the user has read permissions to the shared directory.
+#' To load data not stored in the Atlas hub, the user should rely on \code{\link[loadeR]{loadGridData}} 
 #' @author J Baño-Medina
 #' @export
 #' @importFrom utils read.csv
