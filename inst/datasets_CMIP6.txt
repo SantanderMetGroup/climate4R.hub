@@ -1,0 +1,6 @@
+name,type,url,dicname
+CMIP6_historical_tas,CMIP6,/home/jovyan/shared/data/ipcc-atlas/CMIP6/tas/ncml/CMIP6_historical_tas.ncml,FALSE
+CMIP6_ssp126_tas,CMIP6,/home/jovyan/shared/data/ipcc-atlas/CMIP6/tas/ncml/CMIP6_ssp126_tas.ncml,FALSE
+CMIP6_ssp245_tas,CMIP6,/home/jovyan/shared/data/ipcc-atlas/CMIP6/tas/ncml/CMIP6_ssp245_tas.ncml,FALSE
+CMIP6_ssp370_tas,CMIP6,/home/jovyan/shared/data/ipcc-atlas/CMIP6/tas/ncml/CMIP6_ssp370_tas.ncml,FALSE
+CMIP6_ssp585_tas,CMIP6,/home/jovyan/shared/data/ipcc-atlas/CMIP6/tas/ncml/CMIP6_ssp585_tas.ncml,FALSE

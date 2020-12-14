@@ -83,6 +83,7 @@ loadHubData <- function(dataset,
   path <- df$url[ind.row]
   dic.filename <- df$dic[ind.row]
   dictionary <- file.path(find.package("climate4R.hub"), "dictionaries", dic.filename)
+  if (dic.filename == "FALSE") dictionary <- FALSE
   
   # LoadGridData
   loadGridData(dataset = path,
