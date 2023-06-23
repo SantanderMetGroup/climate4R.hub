@@ -56,12 +56,7 @@
 #' @export
 #' @importFrom utils read.csv
 #' @importFrom loadeR loadGridData
-#' @examples
-#' library(loadeR)
-#' HUB.datasets()
-#' # Example with E-OBS v21
-#' HUB.datasets(pattern = "E-OBS.*v21")
-#' url <- loadHubData("E-OBS_v21e_0.10regular", years = 2000, var = "pr")
+
 
 loadHubData <- function(dataset,
                         var,
