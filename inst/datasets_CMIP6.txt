@@ -1,0 +1,16 @@
+name,type,url,dicname
+CMIP6_historical_tas,CMIP6,/home/jovyan/shared/data/ipcc-atlas/CMIP6/tas/ncml/CMIP6_historical_tas.ncml,FALSE
+CMIP6_ssp126_tas,CMIP6,/home/jovyan/shared/data/ipcc-atlas/CMIP6/tas/ncml/CMIP6_ssp126_tas.ncml,FALSE
+CMIP6_ssp245_tas,CMIP6,/home/jovyan/shared/data/ipcc-atlas/CMIP6/tas/ncml/CMIP6_ssp245_tas.ncml,FALSE
+CMIP6_ssp370_tas,CMIP6,/home/jovyan/shared/data/ipcc-atlas/CMIP6/tas/ncml/CMIP6_ssp370_tas.ncml,FALSE
+CMIP6_ssp585_tas,CMIP6,/home/jovyan/shared/data/ipcc-atlas/CMIP6/tas/ncml/CMIP6_ssp585_tas.ncml,FALSE
+CMIP6_historical_pr,CMIP6,/home/jovyan/shared/data/ipcc-atlas/CMIP6/pr/ncml/CMIP6_historical_pr.ncml,FALSE
+CMIP6_ssp126_pr,CMIP6,/home/jovyan/shared/data/ipcc-atlas/CMIP6/pr/ncml/CMIP6_ssp126_pr.ncml,FALSE
+CMIP6_ssp245_pr,CMIP6,/home/jovyan/shared/data/ipcc-atlas/CMIP6/pr/ncml/CMIP6_ssp245_pr.ncml,FALSE
+CMIP6_ssp370_pr,CMIP6,/home/jovyan/shared/data/ipcc-atlas/CMIP6/pr/ncml/CMIP6_ssp370_pr.ncml,FALSE
+CMIP6_ssp585_pr,CMIP6,/home/jovyan/shared/data/ipcc-atlas/CMIP6/pr/ncml/CMIP6_ssp585_pr.ncml,FALSE
+CMIP6_historical_meanpr,CMIP6,/home/jovyan/shared/data/ipcc-atlas/CMIP6/meanpr/ncml/CMIP6_historical_meanpr.ncml,FALSE
+CMIP6_ssp126_meanpr,CMIP6,/home/jovyan/shared/data/ipcc-atlas/CMIP6/meanpr/ncml/CMIP6_ssp126_meanpr.ncml,FALSE
+CMIP6_ssp245_meanpr,CMIP6,/home/jovyan/shared/data/ipcc-atlas/CMIP6/meanpr/ncml/CMIP6_ssp245_meanpr.ncml,FALSE
+CMIP6_ssp370_meanpr,CMIP6,/home/jovyan/shared/data/ipcc-atlas/CMIP6/meanpr/ncml/CMIP6_ssp370_meanpr.ncml,FALSE
+CMIP6_ssp585_meanpr,CMIP6,/home/jovyan/shared/data/ipcc-atlas/CMIP6/meanpr/ncml/CMIP6_ssp585_meanpr.ncml,FALSE

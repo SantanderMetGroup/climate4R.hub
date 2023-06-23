@@ -166,11 +166,11 @@ The argument \code{time} controls the temporal filtering/aggregation options tha
 }
 
 \examples{
-library(loadeR)
-HUB.datasets()
-# Example with E-OBS v21
-HUB.datasets(pattern = "E-OBS.*v21")
-# url <- loadHubData("E-OBS_v21e_0.10regular", years = 2000, var = "pr")
+# library(loadeR)
+# HUB.datasets()
+# # Example with E-OBS v21
+# HUB.datasets(pattern = "E-OBS.*v21")
+# url <- loadHubData("E-OBS_v21e_0.10regular", years = 2000, var = "pr")
 }
 \author{
 J Baño-Medina

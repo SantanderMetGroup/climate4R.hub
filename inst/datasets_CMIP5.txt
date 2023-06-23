@@ -1,0 +1,5 @@
+name,type,url,dicname
+CMIP5_historical_tas,CMIP5,/home/jovyan/shared/data/ipcc-atlas/CMIP5/tas/ncml/CMIP5_historical_tas.ncml,FALSE
+CMIP5_rcp26_tas,CMIP5,/home/jovyan/shared/data/ipcc-atlas/CMIP5/tas/ncml/CMIP5_rcp26_tas.ncml,FALSE
+CMIP5_rcp45_tas,CMIP5,/home/jovyan/shared/data/ipcc-atlas/CMIP5/tas/ncml/CMIP5_rcp45_tas.ncml,FALSE
+CMIP5_rcp85_tas,CMIP5,/home/jovyan/shared/data/ipcc-atlas/CMIP5/tas/ncml/CMIP5_rcp85_tas.ncml,FALSE
